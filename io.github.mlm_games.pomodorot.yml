@@ -45,7 +45,7 @@ modules:
           timestamp-query: .published_at
           url-query: '"https://github.com/mlm-games/pomodorot/releases/download/"
             + $version + "/pomodorot.arm64"'
-      - type: git
+      - type: git # Just for the metainfo.xml, .desktop and icon.svg 
         url: https://github.com/mlm-games/pomodorot.git
         tag: 0.7.8
         commit: 86c7fd0b33da50aa24eedda4e0bb077a7038047a
