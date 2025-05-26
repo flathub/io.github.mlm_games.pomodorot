@@ -20,8 +20,8 @@ modules:
       - install -Dm644 icon.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
     sources:
       - type: file
-        url: https://github.com/mlm-games/pomodorot/releases/download/0.10.1/pomodorot.x86_64
-        sha256: d862135f088ce089e6908c92689ed6894b8bfdc9152a48cff2d2ebdcf7229606
+        url: https://github.com/mlm-games/pomodorot/releases/download/0.10.2/pomodorot.x86_64
+        sha256: 8e18c0b2727b9cd7bc9d8147ffa642ddf449d90fecd9fc111bf0a5624cb645d6
         dest-filename: pomodorot
         only-arches:
           - x86_64
@@ -33,8 +33,8 @@ modules:
           url-query: '"https://github.com/mlm-games/pomodorot/releases/download/"
             + $version + "/pomodorot.x86_64"'
       - type: file
-        url: https://github.com/mlm-games/pomodorot/releases/download/0.10.1/pomodorot.arm64
-        sha256: 8b6596accf79e60c79c86d51fbcbb105642ecef6286967743d8db4e8e57d8ea1
+        url: https://github.com/mlm-games/pomodorot/releases/download/0.10.2/pomodorot.arm64
+        sha256: 8d53f94bdd5847cb5b58f3585b2e36e3681aad0a95317422d3fd5d1c5f955396
         dest-filename: pomodorot
         only-arches:
           - aarch64
