@@ -1,6 +1,6 @@
 app-id: io.github.mlm_games.pomodorot
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: pomodorot
 finish-args:
@@ -45,10 +45,9 @@ modules:
           timestamp-query: .published_at
           url-query: '"https://github.com/mlm-games/pomodorot/releases/download/"
             + $version + "/pomodorot.arm64"'
-      - type: git # Just for the metainfo.xml, .desktop and icon.svg 
+      - type: git # Just for the metainfo.xml, .desktop and icon.svg
         url: https://github.com/mlm-games/pomodorot.git
-        tag: 0.7.8
-        commit: 86c7fd0b33da50aa24eedda4e0bb077a7038047a
+        tag: 0.13.3
+        commit: 59f155a25cb619a927705d401d7b4584ea596be6
         x-checker-data:
           type: git
-          tag-pattern: ^[0-9]+\.[0-9]+\.[0-9]+$
